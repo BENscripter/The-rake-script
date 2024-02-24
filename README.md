@@ -6,6 +6,7 @@ local Examples = Luxt:Tab("The Rake")
 local ff = Examples:Section("Make u See Rake But Not Item") 
 ff:Label("Esp")
 ff:Button("Press", function()
+
 getgenv().esp = false
 local highlights = {}
  

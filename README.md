@@ -12,13 +12,11 @@ ff:Label("TpWalk")
 ff:Button("Press", function()
 getgenv().WalkSpeed = true 
  
-while WalkSpeed == true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 3.5
-wait()
-end
+
 
 ff:Label("Resets [KICKS U]")
 ff:Button("Press", function()
+game.Players.LocalPlayer:Kick("你因作弊而被封禁，请在discord举报，看看是否有错误[FAKE]")
 
 
 

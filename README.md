@@ -4,9 +4,8 @@ local Luxt = Luxtl.CreateWindow("Fluxus Rake", 6105620301)
 
 local Examples = Luxt:Tab("The Rake") 
 local ff = Examples:Section("Make u See Rake But Not Item") 
-ff:Label("Esp")
+ff:Label("Auto Farm")
 ff:Button("Press", function()
-
 
 ff:Label("TpWalk")
 ff:Button("Press", function()

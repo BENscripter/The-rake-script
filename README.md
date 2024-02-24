@@ -44,5 +44,10 @@ end
 
 ff:Label("Resets [KICKS U]")
 ff:Button("Press", function()
+
 game.Players.LocalPlayer:Kick("
 你因作弊而被封禁，请在discord举报，看看是否有错误[FAKE]")
+
+
+ff:Label("fullbright[SOON]")
+ff:Button("Press", function()

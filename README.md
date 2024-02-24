@@ -8,17 +8,10 @@ local ff = Examples:Section("Make u See Rake But Not Item")
 ff:Label("Auto Farm")
 ff:Button("Press", function()
 
-ff:Label("TpWalk")
-ff:Button("Press", function()
-getgenv().WalkSpeed = true 
- 
-
-
 ff:Label("Resets [KICKS U]")
 ff:Button("Press", function()
 game.Players.LocalPlayer:Kick("bye")
 
 
 
-ff:Label("fullbright[SOON]")
-ff:Button("Press", function()
+

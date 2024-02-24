@@ -7,32 +7,6 @@ local ff = Examples:Section("Make u See Rake But Not Item")
 ff:Label("Esp")
 ff:Button("Press", function()
 
-getgenv().esp = false
-local highlights = {}
- 
-function start()
-    while task.wait() do
-        local esp = getgenv().esp
-        local rake = game.Workspace:FindFirstChild("Rake")
-        local rakeHighlight = game.CoreGui:FindFirstChild("Rake")
- 
-        if esp and rake then
-            if not rakeHighlight then
-                local highlight = Instance.new("Highlight", game.CoreGui)
-                highlight.Name = "Rake"
-                highlight.Adornee = rake
-                highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
-                highlight.FillColor = Color3.fromRGB(193, 30, 0)
-                highlights[rake] = highlight
-            end
-        else
-            if rakeHighlight then
-                rakeHighlight:Destroy()
-                highlights[rake] = nil
-            end
-        end
-    end
-end
 
 ff:Label("TpWalk")
 ff:Button("Press", function()

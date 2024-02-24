@@ -4,7 +4,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Lib
 local Luxt = Luxtl.CreateWindow("Mod", 6105620301)    
 
 local Examples = Luxt:Tab("The Rake") 
-local ff = Examples:Section("Make u See Rake But Not Item") 
+local ff = Examples:Section("Mam") 
 ff:Label("Auto Farm")
 ff:Button("Press", function()
 

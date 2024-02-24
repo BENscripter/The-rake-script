@@ -1,4 +1,5 @@
-local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))() 
+local Luxtl =
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))() 
   
 local Luxt = Luxtl.CreateWindow("Mod", 6105620301)    
 
@@ -15,7 +16,7 @@ getgenv().WalkSpeed = true
 
 ff:Label("Resets [KICKS U]")
 ff:Button("Press", function()
-game.Players.LocalPlayer:Kick("你因作弊而被封禁，请在discord举报，看看是否有错误[FAKE]")
+game.Players.LocalPlayer:Kick("bye")
 
 
 
